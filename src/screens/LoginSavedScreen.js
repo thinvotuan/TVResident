@@ -20,7 +20,7 @@ class LoginSavedScreen extends React.Component {
       super(props);
       this.state = {
         userName: '',
-        userPass: 'admin@hr007',
+        userPass: '#ThuanViet123',
         token:'',
         isLoading: false,
         icEye: 'ios-eye-off',
@@ -68,8 +68,8 @@ class LoginSavedScreen extends React.Component {
     });
     this.props.navigation.dispatch(navigateAction);
   }
-  ThoatTaiKhoan(){
-    AsyncStorage.removeItem('savelogin');
+  async ThoatTaiKhoan(){
+    await AsyncStorage.clear()
 
     const navigateAction = NavigationActions.navigate({
       routeName: 'Profile',

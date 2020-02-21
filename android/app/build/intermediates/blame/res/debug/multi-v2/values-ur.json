@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/votuanthin/Desktop/TVResident/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml",
+            "outputFile": "D:\\GitCode\\TVResident\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ur\\values-ur.xml",
             "map": [
                 {
-                    "source": "/Users/votuanthin/.gradle/caches/transforms-2/files-2.1/ac111d2d67468910b2fe59c7dc4adb12/res/values-ur/values-ur.xml",
+                    "source": "C:\\Users\\app\\.gradle\\caches\\transforms-2\\files-2.1\\1c8d92facd53eae945c5fa7d1be8366e\\res\\values-ur\\values-ur.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/votuanthin/.gradle/caches/transforms-2/files-2.1/f725d85a8692af4ca9d1be55dbc91605/res/values-ur/values-ur.xml",
+                    "source": "C:\\Users\\app\\.gradle\\caches\\transforms-2\\files-2.1\\c1329f62408743c51b52a54e36a48169\\res\\values-ur\\values-ur.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

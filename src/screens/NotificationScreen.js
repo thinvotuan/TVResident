@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View, StyleSheet, ScrollView, Image, StatusBar, TextInput, Dimensions, TouchableHighlight, FlatList,
-RefreshControl,
-AsyncStorage } from 'react-native';
+RefreshControl,ActivityIndicator,
+AsyncStorage, } from 'react-native';
 
 import { StackNavigator, DrawerNavigator } from 'react-navigation'
 import { NavigationActions, DrawerActions } from 'react-navigation';
@@ -12,10 +12,19 @@ import i18n from '../i18n';
 import { NavigationEvents } from "react-navigation";
 
 import ViewThongBaoScreen from './ViewThongBaoScreen';
-import NotificationRow from '../components/NotificationRow'
+import NotificationRow from '../components/NotificationRow';
+import ViewFilePDFScreen from './ViewFilePDFScreen'; 
+
 import RNPickerSelect, { defaultStyles } from 'react-native-picker-select';
 
 const { height, width } = Dimensions.get('window')
+
+const isCloseToBottom = ({layoutMeasurement, contentOffset, contentSize}) => {
+  const paddingToBottom = 20;
+  return layoutMeasurement.height + contentOffset.y >=
+    contentSize.height - paddingToBottom;
+};
+
 
 class NotificationScreen extends React.Component {
   static navigationOptions = {
@@ -25,101 +34,106 @@ class NotificationScreen extends React.Component {
   constructor(props){
       super();
       this.props = props;
+      
       this.state = {
-        search: '',
+        searchInput: '',
         listThongBao:[],
         listDuAn:[],
-        favSport1: undefined,
+        favSport1: '',
         userName:'',
         chooseSave:'0',
         isRefreshing: false,
+        waiting: false,
+        pageCurent:1,
+        loading: false,
+        refreshing : false,
+        error: null,
       };
       this.handlePress = this.handlePress.bind(this);
       this.changeSave = this.changeSave.bind(this);
       this.inputRefs = {
-          favSport1: null,
+          favSport1: '',
       };
-      this.onRefresh = this.onRefresh.bind(this)
+      this.onRefreshList = this.onRefreshList.bind(this);
     }
 
-    async componentDidMount(){
-      this.initUserPassFromCache().done();
-      const data_duLieu = {
-        listTB: [
-          {
-            id:1,
-            title: "Những điều cần lưu ý trong dịp Tết Nguyên Đán 2020/ Cautions on the Lunar New Year holidays 2020",
-            datetime: "14/01/2020 10:22",
-            status:"0",
-            statusSave:'1',
-            maDuAn:'Newcity',
-            tenDuAn:'Chung cư Newcity Quận 2'
-          }, {
-            id:2,
-            title: "Lịch nghỉ Tết Canh Tý 2020/ Notice on Lunar New Year holiday 2020",
-            datetime: "14/01/2020 10:22",
-            status:"0",
-            statusSave:'0',
-            maDuAn:'Newcity',
-            tenDuAn:'Chung cư Newcity Quận 2'
-          }, {
-            id:3,
-            title: "LỊCH XỬ LÝ CÔN TRÙNG ĐỢT 2 THÁNG 12/2019 TẠI THÁP BABYLON / Pest control schedule 2nd time of December, 2019 at Babylon Tower",
-            datetime: "10/01/2020 10:22",
-            status:"1",
-            statusSave:'0',
-            maDuAn:'Newcity',
-            tenDuAn:'Chung cư Newcity Quận 2'
-          }, {
-            id:4,
-            title: "Kiểm tra an toàn Phòng cháy chữa cháy, an toàn điện, hệ thống thoát nước và an toàn vệ sinh thực phẩm tại các shophouse New City /Conducting an inspection of fire prevention safety, electrical safety, drainage system and food safety of shophouses in New City",
-            datetime: "09/01/2020 10:22",
-            status:"1",
-            statusSave:'1',
-            maDuAn:'Newcity',
-            tenDuAn:'Chung cư Newcity Quận 2'
-          }, {
-            id:5,
-            title: "LỊCH BẢO TRÌ THANG MÁY TẠI THÁP BABYLON THÁNG 01/2020./ Elevator maintenance schedule at Babylon Tower in January, 2020",
-            datetime: "08/01/2020 10:22",
-            status:"1",
-            statusSave:'1',
-            maDuAn:'Newcity',
-            tenDuAn:'Chung cư Newcity Quận 2'
-          }, {
-            id:6,
-            title: "THÔNG BÁO VỀ VIỆC TẠM NGƯNG HOẠT ĐỘNG HỒ BƠI ĐỂ PHỤC VỤ CHO CÔNG TÁC BẢO TRÌ VÀ THAY THẾ ĐÈN HỒ BƠI/ NOTICE OF TEMPORARY SUSPENSION OF SWIMMING FACILITIES IN SERVICE OF POINT MAINTENANCE AND REPLACEMENT OF POOL LIGHTS",
-            datetime: "06/01/2020 10:22",
-            status:"1",
-            statusSave:'0',
-            maDuAn:'Newcity',
-            tenDuAn:'Chung cư Newcity Quận 2'
-          }
-        ],
-          listDA:[
-          {
-            label: 'Newcity Thủ Thiêm Quận 2',
-            value: 'newcity',
-          },
-          {
-            label: 'Khu đô thị Quận 9',
-            value: 'KDTQ9',
-          },
-          {
-            label: '2.220 Căn hộ Thủ Thiêm',
-            value: '2220CT',
-          },
-        ]
-      }
+      componentDidMount(){
+      this.GetDuAn();
+      this.findAll();
+      this.initUserPassFromCache().done();      
 
-      this.setState({
-         listDuAn: data_duLieu.listDA
-      });
-
-      this.setState({
-         listThongBao: data_duLieu.listTB
-      });
     }
+
+    async GetDuAn() {   
+        const value = await AsyncStorage.getItem('username');
+        var that = this;
+        var urlDA = 'https://webapi.newcitythuthiem.com.vn/api/Users/ListDuAn' + "?userName=" + value;
+        fetch(urlDA,{
+            method: 'POST',
+            }).then(function (response) { return response.json();
+            }).then(function (result) {
+              for(let i = 0; i < result.length ; i++)
+              {
+                that.state.listDuAn.push({
+                    label: result[i].TenDuAn.toString(),
+                    value: result[i].MaDuAn.toString()
+                });
+              }
+              
+            }).catch(function (error) {
+                Alert.alert("Thông báo","Lỗi: "+error);
+          });
+
+          this.setState({
+            listDuAn: this.state.listDuAn
+         });
+         
+    }
+
+    findAll = async () =>{
+      this.setState({ loading: true });
+
+      const value = await AsyncStorage.getItem('username');
+      const qsearch = this.state.searchInput.replace(/ /gi, '+');
+      const maDuAn = this.state.favSport1;
+      const daLuu = this.state.chooseSave;
+      let pageCurent = this.state.pageCurent ;
+
+      var urlDA = 'https://webapi.newcitythuthiem.com.vn/api/Users/ListThongBao' + "?userName=" + value + "&qSearch=" + qsearch + "&chooseSave="+ daLuu +"&maDuAn=" + maDuAn + "&page=" + pageCurent;
+      var that = this;
+
+      
+      fetch(urlDA,{
+        method: 'POST',
+      })
+      .then(res => res.json())
+      .then(res => {
+        this.setState({
+          listThongBao: pageCurent === 1 ? res : [...this.state.listThongBao, ...res],
+          //pageCurent === 1 ? res : this.state.listThongBao.concat(res),
+          //pageCurent === 1 ? res : [...this.state.listThongBao, ...res],
+          error: res.error || null,
+          loading: false,
+          refreshing: false
+        });
+      })
+      .catch(error => {
+        this.setState({ error, loading: false });
+      });
+      
+    }
+
+    handleLoadMore = () => {
+      this.setState(
+        {
+          pageCurent: this.state.pageCurent + 1
+        },
+        () => {
+          this.findAll();
+        }
+      );
+    };
+
     navigateToScreen = (route)  => {
 
          const navigateAction = NavigationActions.navigate({
@@ -129,6 +143,7 @@ class NotificationScreen extends React.Component {
          this.props.navigation.dispatch(navigateAction);
 
     }
+
     initUserPassFromCache = async () => {
       try{
         const value = await AsyncStorage.getItem('username');
@@ -149,49 +164,128 @@ class NotificationScreen extends React.Component {
     else {
       this.setState({ chooseSave : '0' });
     }
+    this.setState({ listThongBao:[], loading: true,});
+    setTimeout(() => {
+      this.setState(
+        {
+          pageCurent: 1,
+          
+        },
+        () => {
+          this.findAll();
+        }
+      );
+    }, 1000);
   };
 
   handlePress = (item, index) => {
-    item.status='0';
+    item.TrangThaiDaXem="1";
     this.state.listThongBao[index] = item;
     this.setState({
       listThongBao: this.state.listThongBao
     });
+
+    const username = this.state.userName;
+    var urlCapNhat = 'https://webapi.newcitythuthiem.com.vn/api/Users/CapNhatTrangThaiDaXem' + "?userName=" + username + "&maPhieu=" + item.MaPhieu;
+
+    fetch(urlCapNhat,{
+      method: 'POST',
+      }).then(function (response) { return response.json();
+      }).then(function (result) {
+      }).catch(function (error) {
+          Alert.alert("Thông báo","Lỗi: "+error);
+    });
+
+
     const navigateAction = NavigationActions.navigate({
       routeName: 'ViewThongBao',
       params: {
-        id: item.id
+        id: item.MaPhieu
       }
     });
     this.props.navigation.navigate(navigateAction);
+    
 
   }
-  onRefresh(){
+  onRefreshList(){
       this.setState({isRefreshing: true});
       setTimeout(() => {
+        this.setState(
+          {
+            pageCurent: 1,
+            listThongBao:[]
+          },
+          () => {
+            this.findAll();
+          }
+        );
         this.setState({
           isRefreshing: false
         });
-      }, 2000);
+      }, 1000);
     }
-  updateSearch = search => {
-    this.setState({ search });
-  };
 
-  SearchFilterFunction(text)
-  {}
+
+  ChangeTimKiem(text)
+  {
+    this.setState({searchInput: text});
+    this.setState(
+      {
+        pageCurent: 1,
+        listThongBao:[]
+      },
+      () => {
+        this.findAll();
+      }
+    );
+  }
+
+  renderFooter = () => {
+    if (!this.state.loading) return null;
+
+    return (
+      <View
+        style={{
+          paddingVertical: 20,
+        }}
+      >
+        <ActivityIndicator animating size="large" />
+      </View>
+    );
+  };
+  handleRefresh = () => {
+    this.setState(
+      {
+        pageCurent: 1,
+        refreshing: true
+      },
+      () => {
+        this.findAll();
+      }
+    );
+  };
+  
+  
 
   render() {
     const placeholder = {
           label: 'Chọn dự án...',
-          value: null,
+          value: '',
           color: '#ccc',
         };
     return (
       <ScrollView style={styles.container_scroll}
       refreshControl={
-        <RefreshControl refreshing={this.state.isRefreshing} onRefresh={this.onRefresh} />
-      }>
+        <RefreshControl refreshing={this.state.isRefreshing} onRefresh={this.onRefreshList} />
+      }
+        onScroll={({nativeEvent}) => {
+          if (isCloseToBottom(nativeEvent)) {
+            this.setState({refreshing: true});
+            this.handleLoadMore();
+          }
+      }}
+      scrollEventThrottle={400}
+      >
       <NavigationEvents
          onDidFocus ={payload => {
            this.initUserPassFromCache().done();
@@ -215,6 +309,15 @@ class NotificationScreen extends React.Component {
                          this.setState({
                            favSport1: value,
                          });
+                         this.setState(
+                          {
+                            pageCurent: 1,
+                            listThongBao:[]
+                          },
+                          () => {
+                            this.findAll();
+                          }
+                        );
                        }}
                        Icon={() => {
                         return <Icon name="ios-arrow-down" style={styles.icon_dropdown} size={24} color="#fff" />;
@@ -240,12 +343,19 @@ class NotificationScreen extends React.Component {
                      underlineColorAndroid="transparent"
                      placeholder="Tìm kiếm thông báo ..."
                      placeholderTextColor="#ccc2c2"
+                     onChangeText={(searchInput) => this.ChangeTimKiem(searchInput) }
                  />
              </View>
              <View style={styles.container_list}>
              {this.state.userName !== '' && <FlatList
                style={styles.container_TinTuc}
-               data={this.state.listThongBao}
+               data={this.state.listThongBao}           
+               ListFooterComponent={this.renderFooter}
+               keyExtractor={item => item.MaPhieu}
+               refreshing = {this.state.refreshing}
+               //onEndReached = {this.handleLoadMore}
+               //onEndReachedThreshold = {50}
+               //onRefresh={this.handleRefresh}
                renderItem={({ item, index }) => (
                  <TouchableHighlight onPress={() => this.handlePress(item,index)}  underlayColor="transparent">
                    <NotificationRow {...item}  />
@@ -255,6 +365,7 @@ class NotificationScreen extends React.Component {
 
              </View>
           </View>
+          
       </ScrollView>
     );
   }
@@ -264,6 +375,7 @@ class NotificationScreen extends React.Component {
 const NotificationNavigator = createStackNavigator ({
   Notification: NotificationScreen,
   ViewThongBao:ViewThongBaoScreen,
+  ViewFilePDF:ViewFilePDFScreen,
 });
 
 const styles = {
@@ -362,7 +474,7 @@ const pickerSelectStyles = StyleSheet.create({
     marginTop:10,
     fontFamily: "Nunito-Regular",
     height:40,
-    position:'relative'
+    position:'relative',
   },
   inputAndroid: {
     fontSize: 16,
@@ -375,7 +487,7 @@ const pickerSelectStyles = StyleSheet.create({
     marginTop:10,
     fontFamily: "Nunito-Regular",
     height:40,
-    position:'relative'
+    position:'relative',
   },
 })
 export default NotificationNavigator;

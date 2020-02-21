@@ -5,7 +5,8 @@ import {
     StyleSheet,
     Image,
     TouchableOpacity,
-    TouchableHighlight
+    TouchableHighlight,
+    ActivityIndicator
 } from "react-native";
 
 import { StackNavigator, DrawerNavigator } from 'react-navigation'
@@ -16,9 +17,13 @@ class DuAnRow extends Component {
 
   constructor(props) {
     super(props);
-
+      this.state={  
+        imageLoading : true
+      }
     }
-
+    ImageLoading_Error(){ 
+      this.setState({ imageLoading: false });   
+    }
     render() {
         return (
               <View style={{ width: this.props.width / 2 - 15, height: this.props.width / 2 - 40,
@@ -32,7 +37,15 @@ class DuAnRow extends Component {
                 }}>
                   <View style={{height: this.props.width / 2 - 90}}>
                       <Image style={styles.image_duan}
-                          source={this.props.imageUri} />
+                          //source={this.props.imageUri} 
+                          source = {this.state.imageLoading 
+                            ? 
+                            this.props.imageUri
+                            : 
+                             require('../images/no_icon.png')} 
+                          PlaceholderContent={<ActivityIndicator />}
+                          onError={this.ImageLoading_Error.bind(this)}
+                          />
                   </View>
                   <View style={styles.title_wapper}>
                       <Text style={styles.title_duan} numberOfLines={2}>{this.props.name}</Text>

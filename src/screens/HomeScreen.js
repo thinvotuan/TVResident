@@ -65,7 +65,11 @@ class HomeScreen extends React.Component {
           );
       }
 
-
+      renderSeparator = ()=>{
+        return(
+          <View style={{width:100}}/>
+        )
+      }
   render() {
     return (
       <ScrollView style={styles.container_scroll}>
@@ -116,6 +120,7 @@ class HomeScreen extends React.Component {
                               <ScrollView
                                   horizontal={true}
                                   showsHorizontalScrollIndicator={false}>
+
                                   <ArticleRow imageUri={require('../images/tienich/bts.jpg')} id={1}
                                       name="Trường mẫu giáo Blue Sky"
                                   />

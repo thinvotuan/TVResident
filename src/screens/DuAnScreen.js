@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, View, StyleSheet, ScrollView, Image, StatusBar, TextInput, Dimensions, TouchableHighlight,
-RefreshControl } from 'react-native';
+RefreshControl,FlatList,AsyncStorage,ActivityIndicator } from 'react-native';
 
 import { StackNavigator, DrawerNavigator } from 'react-navigation'
 import { NavigationActions, DrawerActions } from 'react-navigation';
@@ -24,16 +24,60 @@ class DuAnScreen extends React.Component {
       this.state = {
         search: '',
         isRefreshing: false,
+        listDuAn:[],
+        loading: false,
+        refreshing : false,
       };
       this.handlePress = this.handlePress.bind(this);
       this.onRefresh = this.onRefresh.bind(this)
     }
 
+    componentDidMount(){
+      this.GetDuAn();
+    }
+
+    async GetDuAn() {   
+      this.setState({ loading: true });
+      const value = await AsyncStorage.getItem('username');
+      var that = this;
+      var urlDA = 'https://webapi.newcitythuthiem.com.vn/api/Users/ListDuAn' + "?userName=" + value;
+      fetch(urlDA,{
+        method: 'POST',
+      })
+      .then(res => res.json())
+      .then(res => {
+        this.setState({
+          listDuAn: [...res],
+          loading: false,
+          refreshing: false
+        });
+      })
+      .catch(error => {
+        this.setState({ error, loading: false });
+      });
+       
+  }
+  renderFooter = () => {
+    if (!this.state.loading) return null;
+
+    return (
+      <View
+        style={{
+          paddingVertical: 20,
+        }}
+      >
+        <ActivityIndicator animating size="large" />
+      </View>
+    );
+  };
     onRefresh(){
         this.setState({isRefreshing: true});
         setTimeout(() => {
           this.setState({
             isRefreshing: false
+          },
+          () => {
+            this.GetDuAn();
           });
         }, 2000);
       }
@@ -75,54 +119,19 @@ class DuAnScreen extends React.Component {
 
              <View style={styles.container_list}>
                 <View style={{ paddingHorizontal: 10, flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between' }}>
-                    <TouchableHighlight style={styles.wapper_duan} onPress={() => this.handlePress(1)}  underlayColor="transparent">
-                        <DuAnRow width={width} id={1}
-                            name="Chung cư Newcity Quận 2"
-                            imageUri={require('../images/mb3.jpg')}
-                        />
-                    </TouchableHighlight>
-                    <TouchableHighlight style={styles.wapper_duan} onPress={() => this.handlePress(2)}  underlayColor="transparent">
-                        <DuAnRow width={width} id={2}
-                            name="Khu đô thị Quận 9"
-                            imageUri={require('../images/mb1.jpg')}
-                        />
-                    </TouchableHighlight>
-                    <TouchableHighlight style={styles.wapper_duan} onPress={() => this.handlePress(3)}  underlayColor="transparent">
-                        <DuAnRow width={width} id={3}
-                            name="The Cozy Place"
-                            imageUri={require('../images/mb5.jpg')}
-                        />
-                    </TouchableHighlight>
-                    <TouchableHighlight style={styles.wapper_duan} onPress={() => this.handlePress(4)}  underlayColor="transparent">
-                        <DuAnRow width={width} id={3}
-                            name="Khu đô thị quận 10"
-                            imageUri={require('../images/mb5.jpg')}
-                        />
-                    </TouchableHighlight>
-                    <TouchableHighlight style={styles.wapper_duan} onPress={() => this.handlePress(5)}  underlayColor="transparent">
-                        <DuAnRow width={width} id={3}
-                            name="Khu đô thị quận 10"
-                            imageUri={require('../images/mb5.jpg')}
-                        />
-                    </TouchableHighlight>
-                    <TouchableHighlight style={styles.wapper_duan} onPress={() => this.handlePress(1)}  underlayColor="transparent">
-                        <DuAnRow width={width} id={3}
-                            name="Khu đô thị quận 10"
-                            imageUri={require('../images/mb5.jpg')}
-                        />
-                    </TouchableHighlight>
-                    <TouchableHighlight style={styles.wapper_duan} onPress={() => this.handlePress(1)}  underlayColor="transparent">
-                        <DuAnRow width={width} id={3}
-                            name="Khu đô thị quận 10"
-                            imageUri={require('../images/mb5.jpg')}
-                        />
-                    </TouchableHighlight>
-                    <TouchableHighlight style={styles.wapper_duan} onPress={() => this.handlePress(1)}  underlayColor="transparent">
-                        <DuAnRow width={width} id={3}
-                            name="Khu đô thị quận 10"
-                            imageUri={require('../images/mb5.jpg')}
-                        />
-                    </TouchableHighlight>
+                <FlatList
+                      data={this.state.listDuAn}           
+                      keyExtractor={item => item.MaDuAn}
+                      refreshing = {this.state.refreshing}
+                      renderItem={({ item, index }) => (
+                            <TouchableHighlight style={styles.wapper_duan} onPress={() => this.handlePress(item.MaDuAn)}  underlayColor="transparent">
+                                <DuAnRow width={width} id={item.MaDuAn}
+                                    name={item.TenDuAn}
+                                    imageUri={{uri:item.HinhAnh}}
+                                />
+                            </TouchableHighlight>
+                      )}
+                />
                 </View>
              </View>
           </View>

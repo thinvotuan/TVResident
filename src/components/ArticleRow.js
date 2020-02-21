@@ -5,7 +5,8 @@ import {
     StyleSheet,
     Image,
     TouchableOpacity,
-    TouchableHighlight
+    TouchableHighlight,
+    ActivityIndicator
 } from "react-native";
 
 class ArticleRow extends Component {
@@ -19,7 +20,8 @@ class ArticleRow extends Component {
           <TouchableHighlight onPress={() => this.handlePress(this.props.id)} underlayColor="transparent">
               <View style={styles.wapper}>
                     <View style={styles.container_image}>
-                        <Image source={this.props.imageUri} style={styles.image} />
+                        <Image source={this.props.imageUri} style={styles.image} 
+                        PlaceholderContent={<ActivityIndicator />}/>
                     </View>
                     <View style={styles.title_name}>
                         <Text style={styles.name} numberOfLines={2}>{this.props.name}</Text>

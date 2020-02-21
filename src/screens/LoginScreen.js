@@ -19,8 +19,8 @@ class LoginScreen extends React.Component {
   constructor(props){
       super(props);
       this.state = {
-        userName: 'admin',
-        userPass: 'admin@hr007',
+        userName: 'BB19.15',
+        userPass: '#ThuanViet123',
         token:'',
         saveLogin: '',
         isLoading: false,

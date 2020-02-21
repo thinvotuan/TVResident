@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet, Image,TouchableOpacity,Dimensions, TouchableHighlight } from 'react-native';
+import { View, Text, StyleSheet, Image,TouchableOpacity,Dimensions, TouchableHighlight,AsyncStorage } from 'react-native';
 import { StackNavigator, DrawerNavigator } from 'react-navigation'
 import { NavigationActions, DrawerActions } from 'react-navigation';
 import Icon from 'react-native-vector-icons/Ionicons'
@@ -33,37 +33,52 @@ class Notification extends React.Component {
       this.props = props;
       this.handlerButtonOnClick = this.handlerButtonOnClick.bind(this);
       this.state = {
-        saveRow: this.props.statusSave,
+        saveRow: this.props.TrangThaiLuu.toString(),
       };
     }
 
-    handlerButtonOnClick = (id) => {
-      if(this.state.saveRow==='0')
+    handlerButtonOnClick = async (id) => {
+      const trangThai = this.props.TrangThaiLuu.toString()==="true" ? "false" : "true";
+
+      if(this.state.saveRow==="false")
       {
-        this.setState({ saveRow : '1' });
+        this.setState({ saveRow : "true" });
       }
       else {
-        this.setState({ saveRow : '0' });
+        this.setState({ saveRow : "false" });
       }
+
+      //const trangThai = this.state.saveRow;
+      
+      const value = await AsyncStorage.getItem('username');
+      var urlCapNhat = 'https://webapi.newcitythuthiem.com.vn/api/Users/CapNhatTrangThaiLuuDanhDau' + "?userName=" + value + "&maPhieu=" + id + "&trangThai="+ trangThai;
+
+      fetch(urlCapNhat,{
+        method: 'POST',
+        }).then(function (response) { return response.json();
+        }).then(function (result) {
+        }).catch(function (error) {
+            Alert.alert("Thông báo","Lỗi: "+error);
+      });
   }
     render() {
       return (
         /*<NotificationRow {...this.props}/>*/
         <View  style={styles.container}>
           <View style={styles.infor_image}>
-            <TouchableHighlight style={styles.wapper_button} underlayColor="transparent"  onPress={() => this.handlerButtonOnClick(`${this.props.id}`)} >
-              <Icon name = {`${this.state.saveRow}`==='0' ? "ios-star-outline" :'ios-star'} size={30}  style={{ color: `${this.state.saveRow}`==='0' ? "#ccc" :'#fdbc45', textAlign:'center'}}/>
+            <TouchableHighlight style={styles.wapper_button} underlayColor="transparent"  onPress={() => this.handlerButtonOnClick(`${this.props.MaPhieu}`)} >
+              <Icon name = {`${this.state.saveRow}`==="false" ? "ios-star-outline" :'ios-star'} size={30}  style={{ color: `${this.state.saveRow}`==="false" ? "#ccc" :'#fdbc45', textAlign:'center'}}/>
             </TouchableHighlight>
           </View>
           <View style={styles.infortintuc}>
             <View>
-              <Text style={[styles.text, {fontFamily: `${this.props.status}` =='1' ? 'Nunito-Bold' : 'Nunito-Regular' }]} numberOfLines={2}>
-                {`${this.props.title}`}
+              <Text style={[styles.text, {fontFamily: `${this.props.TrangThaiDaXem}` == "0" ? 'Nunito-Bold' : 'Nunito-Regular' }]} numberOfLines={2}>
+              {`${this.props.TieuDe}`}
               </Text>
             </View>
             <View  style={styles.wapper_bottom}>
-              <Text style={[styles.datetime , {fontFamily: `${this.props.status}` =='1' ? 'Nunito-Bold' : 'Nunito-Regular' }]} numberOfLines={1}>
-                {`${this.props.datetime}`} - {`${this.props.tenDuAn}`}
+              <Text style={[styles.datetime , {fontFamily: `${this.props.TrangThaiDaXem}` == "0" ? 'Nunito-Bold' : 'Nunito-Regular' }]} numberOfLines={1}>
+                {`${this.props.NgayLapstr}`} - {`${this.props.TenDuAn}`}
               </Text>
             </View>
           </View>

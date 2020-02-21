@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/votuanthin/Desktop/TVResident/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "D:\\GitCode\\TVResident\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/votuanthin/.gradle/caches/transforms-2/files-2.1/ac111d2d67468910b2fe59c7dc4adb12/res/values-v23/values-v23.xml",
+                    "source": "C:\\Users\\app\\.gradle\\caches\\transforms-2\\files-2.1\\1c8d92facd53eae945c5fa7d1be8366e\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
