@@ -1,0 +1,272 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:1:1-31:12
+INJECTED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:1:1-31:12
+INJECTED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:1:1-31:12
+INJECTED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:1:1-31:12
+MERGED from [:@react-native-community_async-storage] D:\App\TVResident\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:@react-native-community_datetimepicker] D:\App\TVResident\node_modules\@react-native-community\datetimepicker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-13:12
+MERGED from [:@react-native-community_netinfo] D:\App\TVResident\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-gesture-handler] D:\App\TVResident\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-i18n] D:\App\TVResident\node_modules\react-native-i18n\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-image-picker] D:\App\TVResident\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-21:12
+MERGED from [:react-native-reanimated] D:\App\TVResident\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] D:\App\TVResident\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\app\.gradle\caches\transforms-2\files-2.1\ea314ae691c0adb2d23b00a8332cf261\AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\app\.gradle\caches\transforms-2\files-2.1\28930285edbeff0db8fc049ea6329494\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-linear-gradient] D:\App\TVResident\node_modules\react-native-linear-gradient\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\app\.gradle\caches\transforms-2\files-2.1\1c8d92facd53eae945c5fa7d1be8366e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\00919f234ed313904f82788a0bebd8e6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\30386f9524d2baa3b42f390429626895\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\77f06a2b914af2c0e66f2fa0b787895c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\95cf79212ea05bd7afc0f4c69fe656a7\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\5cade07a78dcc165401504486e69fdb2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\5ca413fe2ccf879a7675e21474e54862\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\1970b4adf66b406241872903b92b5a6c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\fa57013efce09a094ead73f2c22c78a1\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\57d13e427abf40a22b141b912f1f0527\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\87ce7d156443e25d2e3586dba37f1fd9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\9d3c2064f07fa355056906de7895a3b9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\929f5a15d1f875570bc4a4882fbc6f3e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\84cc08af6a8b2a7b0ea5327732e2a1c9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\app\.gradle\caches\transforms-2\files-2.1\b527bf22a7807a096cbc08a0994beb82\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\939538a73ed73feac0d2403f587276d7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\51e608927de4321d9796991c4a8594b0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\0c6b00447d37e2fed3edafda0bead908\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\4002c6ad79f2923ce5dc47fb8e81043b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\7d7a4ba50802ed63c6f5264dd11ef2c2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\1edaeb8622ff80874e04057f7d135eae\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\f109e90fc22f82fb603a20299f746216\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\575d647f4550c55704b464f1e8322b7e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.0-alpha01] C:\Users\app\.gradle\caches\transforms-2\files-2.1\c1329f62408743c51b52a54e36a48169\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\4ecd7888bc5a3e1e5ac87baac57e1037\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\f5a898d2493c8e427ab6ec2769302b75\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\4f35eb342e2f2a8b8c9a255cb0f44a3a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\9cc6a7579891e326983bc710bd85d38c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\42f05aa3fd925d144cb5555d9a8e482c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\c22e94b6042293b62e59417fa8fa2742\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\db5d682843fdefc601cae5dcba62d759\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\365ed81dc8476131802ad1b5763a66cf\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\1d1f2196b8a9594488df638517a774ca\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\cd0f96427d579bad9228b3a4c28659cd\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\e73189847936471548f388b44de7bf9e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\44da8c6b9457610a9e5547595eb91758\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:1:1-31:12
+INJECTED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:1:1-31:12
+INJECTED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:1:1-31:12
+	package
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:2:3-27
+		INJECTED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:1:1-31:12
+		INJECTED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:1:1-31:12
+		INJECTED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.CAMERA
+ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:5:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:7:22-78
+application
+ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:8:5-29:19
+MERGED from [:@react-native-community_datetimepicker] D:\App\TVResident\node_modules\@react-native-community\datetimepicker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:11:5-20
+MERGED from [:@react-native-community_datetimepicker] D:\App\TVResident\node_modules\@react-native-community\datetimepicker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:11:5-20
+MERGED from [:react-native-image-picker] D:\App\TVResident\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] D:\App\TVResident\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-19:19
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\app\.gradle\caches\transforms-2\files-2.1\ea314ae691c0adb2d23b00a8332cf261\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\app\.gradle\caches\transforms-2\files-2.1\ea314ae691c0adb2d23b00a8332cf261\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\fa57013efce09a094ead73f2c22c78a1\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\fa57013efce09a094ead73f2c22c78a1\AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.3.0-alpha01] C:\Users\app\.gradle\caches\transforms-2\files-2.1\c1329f62408743c51b52a54e36a48169\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0-alpha01] C:\Users\app\.gradle\caches\transforms-2\files-2.1\c1329f62408743c51b52a54e36a48169\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\4ecd7888bc5a3e1e5ac87baac57e1037\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\4ecd7888bc5a3e1e5ac87baac57e1037\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.0-alpha01] C:\Users\app\.gradle\caches\transforms-2\files-2.1\c1329f62408743c51b52a54e36a48169\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:10:7-39
+	android:roundIcon
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:12:7-52
+	android:icon
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:11:7-41
+	android:allowBackup
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:13:7-34
+	android:theme
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:14:7-38
+	android:name
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:9:7-38
+activity#com.tvresident.MainActivity
+ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:15:7-27:18
+	android:screenOrientation
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:19:9-45
+	android:label
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:17:9-41
+	android:windowSoftInputMode
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:20:9-51
+	android:configChanges
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:18:9-79
+	android:name
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:16:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:23:9-26:25
+action#android.intent.action.MAIN
+ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:24:13-65
+	android:name
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:24:21-62
+category#android.intent.category.LAUNCHER
+ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:25:13-73
+	android:name
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:25:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:28:7-84
+	android:name
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml:28:17-81
+uses-sdk
+INJECTED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml
+MERGED from [:@react-native-community_async-storage] D:\App\TVResident\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_async-storage] D:\App\TVResident\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_datetimepicker] D:\App\TVResident\node_modules\@react-native-community\datetimepicker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-community_datetimepicker] D:\App\TVResident\node_modules\@react-native-community\datetimepicker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-community_netinfo] D:\App\TVResident\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_netinfo] D:\App\TVResident\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] D:\App\TVResident\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] D:\App\TVResident\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-i18n] D:\App\TVResident\node_modules\react-native-i18n\android\build\intermediates\library_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-i18n] D:\App\TVResident\node_modules\react-native-i18n\android\build\intermediates\library_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] D:\App\TVResident\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] D:\App\TVResident\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] D:\App\TVResident\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] D:\App\TVResident\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] D:\App\TVResident\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] D:\App\TVResident\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\app\.gradle\caches\transforms-2\files-2.1\ea314ae691c0adb2d23b00a8332cf261\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\app\.gradle\caches\transforms-2\files-2.1\ea314ae691c0adb2d23b00a8332cf261\AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\app\.gradle\caches\transforms-2\files-2.1\28930285edbeff0db8fc049ea6329494\AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\app\.gradle\caches\transforms-2\files-2.1\28930285edbeff0db8fc049ea6329494\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] D:\App\TVResident\node_modules\react-native-linear-gradient\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] D:\App\TVResident\node_modules\react-native-linear-gradient\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\app\.gradle\caches\transforms-2\files-2.1\1c8d92facd53eae945c5fa7d1be8366e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\app\.gradle\caches\transforms-2\files-2.1\1c8d92facd53eae945c5fa7d1be8366e\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\00919f234ed313904f82788a0bebd8e6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\00919f234ed313904f82788a0bebd8e6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\30386f9524d2baa3b42f390429626895\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\30386f9524d2baa3b42f390429626895\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\77f06a2b914af2c0e66f2fa0b787895c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\77f06a2b914af2c0e66f2fa0b787895c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\95cf79212ea05bd7afc0f4c69fe656a7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\95cf79212ea05bd7afc0f4c69fe656a7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\5cade07a78dcc165401504486e69fdb2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\5cade07a78dcc165401504486e69fdb2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\5ca413fe2ccf879a7675e21474e54862\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\5ca413fe2ccf879a7675e21474e54862\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\1970b4adf66b406241872903b92b5a6c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\1970b4adf66b406241872903b92b5a6c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\fa57013efce09a094ead73f2c22c78a1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\fa57013efce09a094ead73f2c22c78a1\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\57d13e427abf40a22b141b912f1f0527\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\57d13e427abf40a22b141b912f1f0527\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\87ce7d156443e25d2e3586dba37f1fd9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\87ce7d156443e25d2e3586dba37f1fd9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\9d3c2064f07fa355056906de7895a3b9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\9d3c2064f07fa355056906de7895a3b9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\929f5a15d1f875570bc4a4882fbc6f3e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\929f5a15d1f875570bc4a4882fbc6f3e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\84cc08af6a8b2a7b0ea5327732e2a1c9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\84cc08af6a8b2a7b0ea5327732e2a1c9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\app\.gradle\caches\transforms-2\files-2.1\b527bf22a7807a096cbc08a0994beb82\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\app\.gradle\caches\transforms-2\files-2.1\b527bf22a7807a096cbc08a0994beb82\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\939538a73ed73feac0d2403f587276d7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\939538a73ed73feac0d2403f587276d7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\51e608927de4321d9796991c4a8594b0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\51e608927de4321d9796991c4a8594b0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\0c6b00447d37e2fed3edafda0bead908\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\0c6b00447d37e2fed3edafda0bead908\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\4002c6ad79f2923ce5dc47fb8e81043b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\4002c6ad79f2923ce5dc47fb8e81043b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\7d7a4ba50802ed63c6f5264dd11ef2c2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\7d7a4ba50802ed63c6f5264dd11ef2c2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\1edaeb8622ff80874e04057f7d135eae\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\1edaeb8622ff80874e04057f7d135eae\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\f109e90fc22f82fb603a20299f746216\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\f109e90fc22f82fb603a20299f746216\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\575d647f4550c55704b464f1e8322b7e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\575d647f4550c55704b464f1e8322b7e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.0-alpha01] C:\Users\app\.gradle\caches\transforms-2\files-2.1\c1329f62408743c51b52a54e36a48169\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0-alpha01] C:\Users\app\.gradle\caches\transforms-2\files-2.1\c1329f62408743c51b52a54e36a48169\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\4ecd7888bc5a3e1e5ac87baac57e1037\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\4ecd7888bc5a3e1e5ac87baac57e1037\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\f5a898d2493c8e427ab6ec2769302b75\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\f5a898d2493c8e427ab6ec2769302b75\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\4f35eb342e2f2a8b8c9a255cb0f44a3a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\4f35eb342e2f2a8b8c9a255cb0f44a3a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\9cc6a7579891e326983bc710bd85d38c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\9cc6a7579891e326983bc710bd85d38c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\42f05aa3fd925d144cb5555d9a8e482c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\42f05aa3fd925d144cb5555d9a8e482c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\c22e94b6042293b62e59417fa8fa2742\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\c22e94b6042293b62e59417fa8fa2742\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\db5d682843fdefc601cae5dcba62d759\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\db5d682843fdefc601cae5dcba62d759\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\365ed81dc8476131802ad1b5763a66cf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\365ed81dc8476131802ad1b5763a66cf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\1d1f2196b8a9594488df638517a774ca\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\1d1f2196b8a9594488df638517a774ca\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\cd0f96427d579bad9228b3a4c28659cd\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\cd0f96427d579bad9228b3a4c28659cd\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\e73189847936471548f388b44de7bf9e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\e73189847936471548f388b44de7bf9e\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\44da8c6b9457610a9e5547595eb91758\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\app\.gradle\caches\transforms-2\files-2.1\44da8c6b9457610a9e5547595eb91758\AndroidManifest.xml:5:5-7:41
+INJECTED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\App\TVResident\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:@react-native-community_netinfo] D:\App\TVResident\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [:@react-native-community_netinfo] D:\App\TVResident\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\release\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:@react-native-community_netinfo] D:\App\TVResident\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\release\AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from [:@react-native-community_netinfo] D:\App\TVResident\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\release\AndroidManifest.xml:10:22-73
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] D:\App\TVResident\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] D:\App\TVResident\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] D:\App\TVResident\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:12:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] D:\App\TVResident\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-image-picker] D:\App\TVResident\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:11:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] D:\App\TVResident\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:15:13-17:58
+	android:resource
+		ADDED from [:react-native-image-picker] D:\App\TVResident\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:17:17-55
+	android:name
+		ADDED from [:react-native-image-picker] D:\App\TVResident\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:16:17-67

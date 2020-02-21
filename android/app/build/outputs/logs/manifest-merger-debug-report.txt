@@ -1,0 +1,292 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:1:1-31:12
+INJECTED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:1:1-31:12
+INJECTED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:1:1-31:12
+INJECTED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:1:1-31:12
+MERGED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:1:1-31:12
+MERGED from [:@react-native-community_async-storage] /Users/votuanthin/Desktop/TVResident/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:@react-native-community_datetimepicker] /Users/votuanthin/Desktop/TVResident/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:@react-native-community_netinfo] /Users/votuanthin/Desktop/TVResident/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-gesture-handler] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-i18n] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-i18n/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-image-picker] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:react-native-reanimated] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/131cfcbfdb2a2bae18fa0e542a37d7a7/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/867cf1f484981dbd7b5146a3417ab9e0/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-linear-gradient] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/ac111d2d67468910b2fe59c7dc4adb12/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/3cb5fa7baa5db13f57c823da2600e521/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/fb3fcd997ecbb6d90ad3509cba2ec4de/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/474bf546d03cf98429bef3a4243a34bf/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/62721242dd6dc4c3b3d5a9670a599fc3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/f71339f79a73cd67726dc37bd89fa01c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/021f8593bc8253734e6e59ca24c0f8b7/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/6aac223ca606a8c63dd7738ba7c6c3aa/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/96347fdc0899b3258999f0a508b1639c/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.transition:transition:1.1.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/50bae25468f5e015e9688d2501c12e45/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/a0320d3bfde3ba2d3123675274c46352/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/42d3caec05ffc3d21cc58ef7a44e70f4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/579f2c8dbad711bb01af09333779213e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/f7c9fb979580ecdecb0493d83d930f1b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/33f137998be2742215e669ee3de47d25/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/9c997e46f08bce3914aedfe09cf97fd8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/a8c2b14784f1abe079ebbd30fd9deb2f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/bded2c92157909621225753ff4c09d40/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/9333f7c477b0bb867782cdf936c85dc5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/98c5e78d5926b9938286ebfbbf721132/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/d1c79f1b732b9a99450c0680d427bd25/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/50cd4c50c1baa9c3dc077cdaa8032ba8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/0d91738e3c933f61f72b966fd403e752/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.0-alpha01] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/f725d85a8692af4ca9d1be55dbc91605/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/89df89623a5d40b7803c0fb5b3bd0158/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/ae2a776f0c5c67935b141ba7c333c802/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/41badcdb190482e17681ff3b338ab5b6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/79e3e904d88ff3abaebd2ffbff73fd22/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/3695eec4103c1389e8ea3dc7a340080c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/d7b152da7115bc7b4b5a1e63deb141e9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/1680aef548498e3ee9cc5ec713797248/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/7a4fb5c695edbdfde1467e1b3be53cc2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/3611065dd0fce0e2779131c8290cfdfa/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/e264fef47d35bc9c3bcb98080eaa3148/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/0db8aab585918397408b3d187f125b99/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/0a3f80baccb9a49dda3356aeb0cbe41d/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/votuanthin/Desktop/TVResident/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/votuanthin/Desktop/TVResident/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/votuanthin/Desktop/TVResident/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:2:3-27
+		INJECTED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:2:3-27
+		INJECTED from /Users/votuanthin/Desktop/TVResident/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:1:1-31:12
+		INJECTED from /Users/votuanthin/Desktop/TVResident/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:1:1-31:12
+		INJECTED from /Users/votuanthin/Desktop/TVResident/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:5:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:6:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:7:22-78
+application
+ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:8:5-29:19
+MERGED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:8:5-29:19
+MERGED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:8:5-29:19
+MERGED from [:@react-native-community_datetimepicker] /Users/votuanthin/Desktop/TVResident/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-20
+MERGED from [:@react-native-community_datetimepicker] /Users/votuanthin/Desktop/TVResident/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-20
+MERGED from [:react-native-image-picker] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/131cfcbfdb2a2bae18fa0e542a37d7a7/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/131cfcbfdb2a2bae18fa0e542a37d7a7/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/96347fdc0899b3258999f0a508b1639c/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/96347fdc0899b3258999f0a508b1639c/AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.3.0-alpha01] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/f725d85a8692af4ca9d1be55dbc91605/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0-alpha01] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/f725d85a8692af4ca9d1be55dbc91605/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/89df89623a5d40b7803c0fb5b3bd0158/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/89df89623a5d40b7803c0fb5b3bd0158/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.0-alpha01] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/f725d85a8692af4ca9d1be55dbc91605/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:10:7-39
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:10:7-39
+	tools:ignore
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/debug/AndroidManifest.xml:7:75-114
+	android:roundIcon
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:12:7-52
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:12:7-52
+	tools:targetApi
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/debug/AndroidManifest.xml:7:54-74
+	android:icon
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:11:7-41
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:11:7-41
+	android:allowBackup
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:13:7-34
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:13:7-34
+	android:theme
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:14:7-38
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:14:7-38
+	android:usesCleartextTraffic
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/debug/AndroidManifest.xml:7:18-53
+	android:name
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:9:7-38
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:9:7-38
+activity#com.tvresident.MainActivity
+ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:15:7-27:18
+	android:screenOrientation
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:19:9-45
+	android:label
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:17:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:20:9-51
+	android:configChanges
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:18:9-79
+	android:name
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:16:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:23:9-26:25
+action#android.intent.action.MAIN
+ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:24:13-65
+	android:name
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:24:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:25:13-73
+	android:name
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:25:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:28:7-84
+	android:name
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml:28:17-81
+uses-sdk
+INJECTED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml
+MERGED from [:@react-native-community_async-storage] /Users/votuanthin/Desktop/TVResident/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_async-storage] /Users/votuanthin/Desktop/TVResident/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_datetimepicker] /Users/votuanthin/Desktop/TVResident/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-community_datetimepicker] /Users/votuanthin/Desktop/TVResident/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-community_netinfo] /Users/votuanthin/Desktop/TVResident/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_netinfo] /Users/votuanthin/Desktop/TVResident/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-i18n] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-i18n/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-i18n] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-i18n/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/131cfcbfdb2a2bae18fa0e542a37d7a7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/131cfcbfdb2a2bae18fa0e542a37d7a7/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/867cf1f484981dbd7b5146a3417ab9e0/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/867cf1f484981dbd7b5146a3417ab9e0/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/ac111d2d67468910b2fe59c7dc4adb12/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/ac111d2d67468910b2fe59c7dc4adb12/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/3cb5fa7baa5db13f57c823da2600e521/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/3cb5fa7baa5db13f57c823da2600e521/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/fb3fcd997ecbb6d90ad3509cba2ec4de/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/fb3fcd997ecbb6d90ad3509cba2ec4de/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/474bf546d03cf98429bef3a4243a34bf/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/474bf546d03cf98429bef3a4243a34bf/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/62721242dd6dc4c3b3d5a9670a599fc3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/62721242dd6dc4c3b3d5a9670a599fc3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/f71339f79a73cd67726dc37bd89fa01c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/f71339f79a73cd67726dc37bd89fa01c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/021f8593bc8253734e6e59ca24c0f8b7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/021f8593bc8253734e6e59ca24c0f8b7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/6aac223ca606a8c63dd7738ba7c6c3aa/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/6aac223ca606a8c63dd7738ba7c6c3aa/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/96347fdc0899b3258999f0a508b1639c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/96347fdc0899b3258999f0a508b1639c/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.transition:transition:1.1.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/50bae25468f5e015e9688d2501c12e45/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/50bae25468f5e015e9688d2501c12e45/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/a0320d3bfde3ba2d3123675274c46352/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/a0320d3bfde3ba2d3123675274c46352/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/42d3caec05ffc3d21cc58ef7a44e70f4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/42d3caec05ffc3d21cc58ef7a44e70f4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/579f2c8dbad711bb01af09333779213e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/579f2c8dbad711bb01af09333779213e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/f7c9fb979580ecdecb0493d83d930f1b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/f7c9fb979580ecdecb0493d83d930f1b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/33f137998be2742215e669ee3de47d25/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/33f137998be2742215e669ee3de47d25/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/9c997e46f08bce3914aedfe09cf97fd8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/9c997e46f08bce3914aedfe09cf97fd8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/a8c2b14784f1abe079ebbd30fd9deb2f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/a8c2b14784f1abe079ebbd30fd9deb2f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/bded2c92157909621225753ff4c09d40/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/bded2c92157909621225753ff4c09d40/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/9333f7c477b0bb867782cdf936c85dc5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/9333f7c477b0bb867782cdf936c85dc5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/98c5e78d5926b9938286ebfbbf721132/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/98c5e78d5926b9938286ebfbbf721132/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/d1c79f1b732b9a99450c0680d427bd25/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/d1c79f1b732b9a99450c0680d427bd25/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/50cd4c50c1baa9c3dc077cdaa8032ba8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/50cd4c50c1baa9c3dc077cdaa8032ba8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/0d91738e3c933f61f72b966fd403e752/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/0d91738e3c933f61f72b966fd403e752/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.0-alpha01] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/f725d85a8692af4ca9d1be55dbc91605/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0-alpha01] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/f725d85a8692af4ca9d1be55dbc91605/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/89df89623a5d40b7803c0fb5b3bd0158/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/89df89623a5d40b7803c0fb5b3bd0158/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/ae2a776f0c5c67935b141ba7c333c802/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/ae2a776f0c5c67935b141ba7c333c802/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/41badcdb190482e17681ff3b338ab5b6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/41badcdb190482e17681ff3b338ab5b6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/79e3e904d88ff3abaebd2ffbff73fd22/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/79e3e904d88ff3abaebd2ffbff73fd22/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/3695eec4103c1389e8ea3dc7a340080c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/3695eec4103c1389e8ea3dc7a340080c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/d7b152da7115bc7b4b5a1e63deb141e9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/d7b152da7115bc7b4b5a1e63deb141e9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/1680aef548498e3ee9cc5ec713797248/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/1680aef548498e3ee9cc5ec713797248/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/7a4fb5c695edbdfde1467e1b3be53cc2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/7a4fb5c695edbdfde1467e1b3be53cc2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/3611065dd0fce0e2779131c8290cfdfa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/3611065dd0fce0e2779131c8290cfdfa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/e264fef47d35bc9c3bcb98080eaa3148/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/e264fef47d35bc9c3bcb98080eaa3148/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/0db8aab585918397408b3d187f125b99/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/0db8aab585918397408b3d187f125b99/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/0a3f80baccb9a49dda3356aeb0cbe41d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/votuanthin/.gradle/caches/transforms-2/files-2.1/0a3f80baccb9a49dda3356aeb0cbe41d/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/votuanthin/Desktop/TVResident/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/votuanthin/Desktop/TVResident/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/votuanthin/Desktop/TVResident/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/votuanthin/Desktop/TVResident/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/votuanthin/Desktop/TVResident/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/votuanthin/Desktop/TVResident/android/app/src/debug/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:@react-native-community_netinfo] /Users/votuanthin/Desktop/TVResident/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [:@react-native-community_netinfo] /Users/votuanthin/Desktop/TVResident/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:@react-native-community_netinfo] /Users/votuanthin/Desktop/TVResident/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from [:@react-native-community_netinfo] /Users/votuanthin/Desktop/TVResident/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-73
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+	android:resource
+		ADDED from [:react-native-image-picker] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+	android:name
+		ADDED from [:react-native-image-picker] /Users/votuanthin/Desktop/TVResident/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67

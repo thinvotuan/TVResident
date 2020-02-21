@@ -1,0 +1,62 @@
+{
+  "appName": "TVResident",
+  "navigation": {
+    "home": "Trang chủ",
+    "highScores": "Highscores",
+    "settings": "Cài đặt",
+    "profile_us":"Cá nhân",
+    "notification":"Thông báo",
+    "more_app":"Thêm"
+  },
+  "home": {
+    "welcome": "Xin chào %{appName}!"
+  },
+  "results": {
+    "title": "Ergebnisse",
+    "words_count": "Wörter"
+  },
+  "high_scores": {
+    "title": "Highscores"
+  },
+  "profiles": {
+    "du_an": "Dự án",
+  },
+  "settings": {
+    "display_language": "Ngôn ngữ",
+    "about": "Liên hệ",
+    "save_button": "Lưu",
+    "name_placeholder": "Họ và tên",
+    "logout": "Đăng xuất",
+    "change_password": "Đổi mật khẩu",
+    "information": "Giới thiệu",
+    "form_mau":"Biểu mẫu",
+    "name_app": "Hệ thống",
+    "version_app":"Phiên bản",
+    "email_support":"Hỗ trợ",
+    "hotline_support":"Hotline Hệ thống",
+    "details":"Chi tiết",
+    "current_password":"Mật khẩu hiện tại",
+    "new_password":"Mật khẩu mới",
+    "confirm_new_password":"Xác nhận mật khẩu mới",
+    "forgot_password":"Quên mật khẩu",
+    "mess_forgot_password":"Vui lòng nhập email đã đăng ký với Ban quản lý để thay đổi mật khẩu"
+  },
+  "language_list": {
+    "change_language": "Thay đổi ngôn ngữ?",
+    "ok": "Đồng ý",
+    "cancel": "Hủy"
+  },
+  "list_more":{
+    "welcome": "Xin chào",
+    "title_signout": "Bạn có chắc chắn muốn đăng xuất?",
+    "confrim_signout": "Đồng ý",
+    "cancel": "Thoát",
+    "send_button":"Gửi",
+    "login_text" : "Đăng nhập",
+    "exit_account": "Thoát tài khoản",
+    "name_login":"Tên đăng nhập",
+    "password_login":"Mật khẩu"
+
+
+  }
+}
